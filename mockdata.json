@@ -1,0 +1,139 @@
+{
+  "@request": "/sac/senhas",
+  "@request_timestamp": "1322057778",
+  "items": {
+    "@attributes": {
+      "count": "8"
+    },
+    "item": {
+      "0": {
+        "@enabled": "1",
+        "@info": "",
+        "id": "61",
+        "letter": "A",
+        "desc": "Lic. (1º ciclo), Mestrado (2º ciclo)",
+        "latest": "86",
+        "ast": "255",
+        "awt": "436",
+        "wc": "98",
+        "post_number": "2",
+        "date": "2011-11-23 14:15:07",
+        "@attributes": {
+          "enabled": "1"
+        }
+      },
+      "1": {
+        "@enabled": "1",
+        "@info": "",
+        "id": "62",
+        "letter": "D",
+        "desc": "Doutoramentos",
+        "latest": "157",
+        "ast": "255",
+        "awt": "8000",
+        "wc": "23",
+        "post_number": "7",
+        "date": "2011-11-23 14:26:07",
+        "@attributes": {
+          "enabled": "1"
+        }
+      },
+      "2": {
+        "@enabled": "1",
+        "@info": "",
+        "id": "63",
+        "letter": "B",
+        "desc": "CTeSP",
+        "latest": "05",
+        "ast": "255",
+        "awt": "200",
+        "wc": "4",
+        "post_number": "5",
+        "date": "2011-11-23 15:01:07",
+        "@attributes": {
+          "enabled": "1"
+        }
+      },
+      "3": {
+        "@enabled": "1",
+        "@info": "",
+        "id": "64",
+        "letter": "E",
+        "desc": "Erasmus",
+        "latest": "04",
+        "ast": "255",
+        "awt": "436",
+        "wc": "15",
+        "post_number": "1",
+        "date": "2011-11-23 14:15:07",
+        "@attributes": {
+          "enabled": "1"
+        }
+      },
+      "4": {
+        "@enabled": "1",
+        "@info": "",
+        "id": "65",
+        "letter": "G",
+        "desc": "Gabinete Acesso",
+        "latest": "65",
+        "ast": "2899",
+        "awt": "4056",
+        "wc": "35",
+        "post_number": "6",
+        "date": "2011-11-23 14:26:07",
+        "@attributes": {
+          "enabled": "1"
+        }
+      },
+      "5": {
+        "@enabled": "1",
+        "@info": "",
+        "id": "66",
+        "letter": "S",
+        "desc": "Suplementos Diplomas",
+        "latest": "01",
+        "ast": "15",
+        "awt": "48",
+        "wc": "1",
+        "post_number": "3",
+        "date": "2011-11-23 14:04:07",
+        "@attributes": {
+          "enabled": "1"
+        }
+      },
+      "6": {
+        "@enabled": "1",
+        "@info": "",
+        "id": "67",
+        "letter": "P",
+        "desc": "Matrículas 2ª Fase",
+        "latest": "265",
+        "ast": "168",
+        "awt": "3000",
+        "wc": "128",
+        "post_number": "4",
+        "date": "2011-11-23 14:16:07",
+        "@attributes": {
+          "enabled": "1"
+        }
+      },
+      "7": {
+        "@enabled": "1",
+        "@info": "",
+        "id": "68",
+        "letter": "L",
+        "desc": "Gab. Estágios Prof.",
+        "latest": "03",
+        "ast": "10",
+        "awt": "10",
+        "wc": "2",
+        "post_number": "8",
+        "date": "2011-11-23 14:35:07",
+        "@attributes": {
+          "enabled": "1"
+        }
+      }
+    }
+  }
+}
