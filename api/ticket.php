@@ -2,7 +2,8 @@
 
 <?php if ($currentTime >= $closingHour) { ?>
 
-  <?php include "partials/ticket-desks-closed.php" ?>
+  <?php //include "partials/ticket-desks-closed.php" ?>
+  <?php include "partials/appointment.php" ?>
 
 <?php } else { ?>
 
