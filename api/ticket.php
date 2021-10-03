@@ -75,7 +75,8 @@
     <?php } ?>
   <?php } else { ?>
 
-    <?php include "partials/no-tickets-called.php" ?>
+    <?php //include "partials/no-tickets-called.php" ?>
+    <?php include "partials/appointment.php" ?>
 
   <?php } ?>
 <?php } ?>
