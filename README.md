@@ -18,10 +18,16 @@ or, if you prefer, via SSH
 git clone git@github.com:claudioduarte/sga-ua-tickets.git
 ```
 
-Install PHP 7.4 command-line interpreter via shell
+Install PHP command-line interpreter via shell
 
 ```bash
 sudo apt-get install php-cli
+```
+
+If on macOS, use [Homebrew](https://brew.sh/)
+
+```bash
+brew install php
 ```
 
 Run PHP Server
@@ -29,6 +35,7 @@ Run PHP Server
 ```bash
 php -S localhost:8000
 ```
+
 If, for some reason, there is no data coming from the API, use JSON with mock data provided in root.
 
 ## License & Copyright
