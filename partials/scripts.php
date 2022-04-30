@@ -9,4 +9,4 @@
 <link rel="stylesheet" href="../assets/scripts/3d-rotating-navigation/css/style.css">
 
 <!-- main.js -->
-<script src="../assets/js/main.js<?= date("Ymdhis") ?>"></script>
+<script src="../assets/js/main.js?v=<?= date("Ymdhis") ?>"></script>
