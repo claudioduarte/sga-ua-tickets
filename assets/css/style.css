@@ -76,7 +76,7 @@ header {
 /* SHARED PROPERTIES */
 
 .title {
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 10px 5px;
     position: relative;
     font-weight: 700;
@@ -85,7 +85,7 @@ header {
 
 .content {
     position: relative;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 20px 0 10px 0;
 }
 
@@ -197,8 +197,8 @@ header {
 /* INFORMATIVE TABLES */
 
 .informative-tables {
-    max-width: 40%;
     margin: 0 auto 20px;
+    max-width: 50%;
 }
 
 .informative-tables .title {
@@ -220,13 +220,13 @@ header {
 /* ORANGE */
 .orange .title {
     background: #ee7a32;
-    text-shadow: 0px 0px 1px rgba(166, 85, 35, 1);
+    /* text-shadow: 0px 0px 1px rgba(166, 85, 35, 1); */
     font-size: 1em;
 }
 
 .orange .content {
     background: #ef8746;
-    text-shadow: 0px 0px 4px rgba(166, 85, 35, 1);
+    /* text-shadow: 0px 0px 4px rgba(166, 85, 35, 1); */
 }
 
 .orange .content:after {
@@ -237,13 +237,13 @@ header {
 
 .green .title {
     background: #77c09a;
-    text-shadow: 0px 0px 1px rgba(83, 134, 107, 1);
+    /* text-shadow: 0px 0px 1px rgba(83, 134, 107, 1); */
     font-size: 1em;
 }
 
 .green .content {
     background: #84c6a4;
-    text-shadow: 0px 0px 4px rgba(83, 134, 107, 1);
+    /* text-shadow: 0px 0px 4px rgba(83, 134, 107, 1); */
 }
 
 .green .content:after {
@@ -254,13 +254,12 @@ header {
 
 .purple .title {
     background: #b896c5;
-    text-shadow: 0px 0px 1px rgba(128, 105, 137, 1);
+    /* text-shadow: 0px 0px 1px rgba(128, 105, 137, 1); */
     font-size: 1em;
-
 }
 .purple .content {
     background: #bfa0ca;
-    text-shadow: 0px 0px 4px rgba(128, 105, 137, 1);
+    /* text-shadow: 0px 0px 4px rgba(128, 105, 137, 1); */
 }
 
 .purple .content:after {
@@ -271,13 +270,13 @@ header {
 
 .red .title {
     background: #de4f33;
-    text-shadow: 0px 0px 1px rgba(155, 55, 35, 1);
+    /* text-shadow: 0px 0px 1px rgba(155, 55, 35, 1); */
     font-size: 1em;
 }
 
 .red .content {
     background: #e16047;
-    text-shadow: 0px 0px 4px rgba(155, 55, 35, 1);
+    /* text-shadow: 0px 0px 4px rgba(155, 55, 35, 1); */
 }
 
 .red .content:after {
@@ -288,13 +287,13 @@ header {
 
 .logo {
     display: block;
-    float:left;
+    float: left;
     width: 400px;
 }
 
 .logo-mobile {
     display: none;
-    float:left;
+    float: left;
     width: 200px;
 }
 

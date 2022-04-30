@@ -15,4 +15,3 @@ $time = date('H:i', $date);
 $ticketsWaiting = $data['items']['item'][$index]['wc'];
 // DESK
 $desk = $data['items']['item'][$index]['post_number'];
-?>

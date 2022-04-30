@@ -48,20 +48,7 @@
                 </h2>
                 <div class="content">
                     <p>
-                        João Carvalho<br>
-                        Daniel Ferreira<br>
-                        Maria João Soares<br>
-                        Emília Castro<br>
-                        Marta Cabral<br>
-                        Carlos Santos<br>
-                        Joana Rocha<br>
-                        Paula Moreto<br>
-                        Carlos Queirós<br>
-                        Rita Albuquerque<br>
-                        Glória Pires<br>
-                        Leonor Nascimento<br>
-                        Andreia Bastos<br>
-                        Nantília Nunes <br>
+                        João Carvalho, Daniel Ferreira, Maria João Soares, Emília Castro, Marta Cabral, Carlos Santos, Joana Rocha, Paula Moreto, Carlos Queirós, Rita Albuquerque, Glória Pires, Leonor Nascimento, Andreia Bastos e Nantília Nunes
                     </p>
                 </div>
             </div>
@@ -71,11 +58,11 @@
                 </h2>
                 <div class="content">
                     <p>
-                        Projeto realizado e desenvolvido em âmbito extra-curricular por <a href="http://www.claudioduarte.pt" target="_blank">Cláudio Duarte</a>, Freelancer e ex-aluno do Mestrado em
+                        Projeto realizado e desenvolvido em âmbito extra-curricular por <a href="https://claudioduarte.pt" target="_blank">Cláudio Duarte</a>, Freelancer e ex-aluno do Mestrado em
                         Comunicação Multimédia no ramo de Multimédia Interativo.
                     </p>
                     <p>
-                        A API utilizada (SAC API) foi criada por Pedro Ferreira. Powered by <a href="http://api.web.ua.pt/" target="_blank">api.web.ua.pt</a>
+                        A API utilizada (SAC API) foi criada por Pedro Ferreira. Poderá ser encontrada em <a href="http://api.web.ua.pt/" target="_blank">api.web.ua.pt</a>
                     </p>
                 </div>
             </div>
@@ -87,6 +74,7 @@
                     <p>Esta página não está, de forma alguma, associada aos Serviços de Gestão Académica da Universidade de Aveiro, pelo que a informação aqui constante é meramente informativa e não vinculativa.</p>
                 </div>
             </div>
+        </div>
     </main>
 </body>
 

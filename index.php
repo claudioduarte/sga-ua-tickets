@@ -32,7 +32,10 @@
         <a href="/"><img class="logo-mobile" src="assets/img/logo-mobile.png"></a>
         <a href="#" class="cd-3d-nav-trigger">Menu<span></span></a>
       </header>
-      <?php include "api/ticket.php" ?>
+      <?php // include "api/generate-tickets.php";
+      ?>
+      <?php include "partials/covid-19-appointment.php";
+      ?>
     </div>
 
     <div class="footer">
