@@ -32,14 +32,13 @@
         <a href="/"><img class="logo-mobile" src="assets/img/logo-mobile.png"></a>
         <a href="#" class="cd-3d-nav-trigger">Menu<span></span></a>
       </header>
-      <?php // include "api/generate-tickets.php";
-      ?>
-      <?php include "partials/covid-19-appointment.php";
-      ?>
+      <?php // include "api/generate-tickets.php"; ?>
+      <?php include "partials/covid-19-appointment.php"; ?>
     </div>
 
     <div class="footer">
       &copy; <?php echo date("Y"); ?> Developed by <a href="https://claudioduarte.pt" target="_blank"><img src="assets/img/cd.png" style="vertical-align: sub;"></a> & Powered by <a href="http://api.web.ua.pt/" target="_blank">api.web.ua.pt</a>
+      <?php include "partials/buy-me-a-coffee.php"; ?>
     </div>
   </main>
 </body>
