@@ -17,7 +17,7 @@
   <meta name="og:url" content="https://senhas.claudioduarte.pt/">
   <meta name="og:description" content="Consulta as Senhas dos Balcões dos Serviços de Gestão Académica da Universidade de Aveiro">
   <!-- FAVICON -->
-  <link href="assets/img/favicon.png<?= date("Ymdhis") ?>" rel="shortcut icon">
+  <link href="assets/img/favicon.png?v=<?= date("Ymdhis") ?>" rel="shortcut icon">
   <!-- CSS -->
   <link href="assets/css/style.css?v=<?= date("Ymdhis") ?>" rel="stylesheet" type="text/css">
   <?php include "partials/scripts.php" ?>
