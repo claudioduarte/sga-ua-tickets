@@ -38,7 +38,6 @@
 
     <div class="footer">
       &copy; <?php echo date("Y"); ?> Developed by <a href="https://claudioduarte.pt" target="_blank"><img src="assets/img/cd.png" style="vertical-align: sub;"></a> & Powered by <a href="http://api.web.ua.pt/" target="_blank">api.web.ua.pt</a>
-      <?php include "partials/buy-me-a-coffee.php"; ?>
     </div>
   </main>
 </body>
