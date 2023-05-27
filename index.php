@@ -1,5 +1,5 @@
 <?php $GLOBALS["navigation"] = "Senhas" ?>
-<?php include "api/fetch-api.php" ?>
+<?php include "api/api-call.php" ?>
 
 <!DOCTYPE html>
 <html>
@@ -32,8 +32,7 @@
         <a href="/"><img class="logo-mobile" src="assets/img/logo-mobile.png"></a>
         <a href="#" class="cd-3d-nav-trigger">Menu<span></span></a>
       </header>
-      <?php // include "api/generate-tickets.php"; ?>
-      <?php include "partials/covid-19-appointment.php"; ?>
+      <?php $covid ? include "partials/covid-19-appointment.php" : include "api/generate-tickets.php"; ?>
     </div>
 
     <div class="footer">

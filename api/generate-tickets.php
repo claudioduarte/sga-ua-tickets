@@ -32,6 +32,6 @@ if ($currentTime >= $closingTime) {
       $chooseTheme++;
     }
   } else {
-    include "partials/no-tickets-called.php";
+    include "partials/awaiting-ticket-call.php";
   }
 }

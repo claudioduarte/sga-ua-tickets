@@ -1,17 +1,17 @@
 <?php
-// TICKET
+$item = $data['items']['item'][$index];
 // LETTER CALLED
-$letterCalled = $data['items']['item'][$index]['letter'];
+$letterCalled = $item['letter'];
 // NUMBER CALLED
-$numberCalled = $data['items']['item'][$index]['latest'];
+$numberCalled = $item['latest'];
 // TICKET NAME
-$ticketName = $data['items']['item'][$index]['desc'];
+$ticketName = $item['desc'];
 // WAIT TIME
-$estimatedWaitTime = $data['items']['item'][$index]['awt'];
+$estimatedWaitTime = $item['awt'];
 // DATETIME
-$date = strtotime($data['items']['item'][$index]['date']);
+$date = strtotime($item['date']);
 $time = date('H:i', $date);
 // TICKETS WAITING
-$ticketsWaiting = $data['items']['item'][$index]['wc'];
+$ticketsWaiting = $item['wc'];
 // DESK
-$desk = $data['items']['item'][$index]['post_number'];
+$desk = $item['post_number'];
