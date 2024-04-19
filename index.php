@@ -32,7 +32,7 @@
         <a href="/"><img class="logo-mobile" src="assets/img/logo-mobile.png"></a>
         <a href="#" class="cd-3d-nav-trigger">Menu<span></span></a>
       </header>
-      <?php $covid ? include "partials/covid-19-appointment.php" : include "api/generate-tickets.php"; ?>
+      <?php $in_person ? include "partials/in-person-appointment.php" : include "api/generate-tickets.php"; ?>
     </div>
 
     <div class="footer">
