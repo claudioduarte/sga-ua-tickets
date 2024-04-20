@@ -51,12 +51,6 @@ $(document).ready(function() {
   function checkDayOfWeek() {
     var date = new Date(Date.now());
     var dayOfWeek = date.getDay();
-
-    if (dayOfWeek === 0 || dayOfWeek === 6) {
-      console.log("closed");
-    } else {
-      console.log("open");
-    }
   }
 
   checkDayOfWeek();
