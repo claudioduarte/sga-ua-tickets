@@ -1,6 +1,6 @@
 # SGA 2.0 - o todo académico
 
-![Logo SGA 2.0](/assets/img/sga-logo-bg.png)
+![image](https://github.com/claudioduarte/sga-ua-tickets/assets/4729521/5addcff8-ef76-4c00-8c4e-46381eb6581d)
 
 View current ticket number for the Academic Management Services desks at the University of Aveiro
 
