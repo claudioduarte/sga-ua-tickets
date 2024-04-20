@@ -1,9 +1,5 @@
 <?php
-include "api/initialize-variables.php";
-
-if ($currentTime >= $closingTime) {
-  include "partials/ticket-desks-closed.php";
-} else {
+if ($currentTime > $openingTime && $currentTime < $closingTime) {
   if ($totalItems > 0) {
     while ($index <= ($totalItems - 1)) {
       switch ($chooseTheme) {
@@ -34,4 +30,6 @@ if ($currentTime >= $closingTime) {
   } else {
     include "partials/awaiting-ticket-call.php";
   }
+} else {
+  include "partials/ticket-desks-closed.php";
 }

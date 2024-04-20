@@ -1,4 +1,5 @@
 <?php $GLOBALS["navigation"] = "Senhas" ?>
+<?php include "api/initialize-variables.php" ?>
 <?php include "api/api-call.php" ?>
 
 <!DOCTYPE html>
@@ -32,11 +33,17 @@
         <a href="/"><img class="logo-mobile" src="assets/img/logo-mobile.png"></a>
         <a href="#" class="cd-3d-nav-trigger">Menu<span></span></a>
       </header>
-      <?php $in_person ? include "partials/in-person-appointment.php" : include "api/generate-tickets.php"; ?>
+      <?php
+      if ($in_person) {
+        include "partials/in-person-appointment.php";
+      } else {
+        $dayOfWeek == 0 || $dayOfWeek == 6 ? include "partials/ticket-desks-closed.php" : include "api/generate-tickets.php";
+      }
+      ?>
     </div>
-
     <div class="footer">
       &copy; <?php echo date("Y"); ?> Developed by <a href="https://claudioduarte.pt" target="_blank"><img src="assets/img/cd.png" style="vertical-align: sub;"></a> & Powered by <a href="http://api.web.ua.pt/" target="_blank">api.web.ua.pt</a>
+      <div id="clock"></div>
     </div>
   </main>
 </body>

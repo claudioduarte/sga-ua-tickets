@@ -73,6 +73,15 @@ header {
     margin-bottom: 3em !important;
 }
 
+.h1-heading {
+    margin: auto;
+    font-weight: bold;
+}
+
+.available-hours {
+    margin-bottom: 30px;
+}
+
 /* SHARED PROPERTIES */
 
 .title {
@@ -305,6 +314,10 @@ header {
     color: #fff;
     text-transform: uppercase;
     margin: 40px 0;
+}
+
+#clock {
+    margin-top: 20px;
 }
 
 /* MEDIA QUERIES */
