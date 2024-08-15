@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
 	});
 
 	//select a new item from the 3d navigation
-	$('.cd-3d-nav').on('click', 'a', function(){
+	$('.cd-3d-nav a').on('click', function(){
 		var selected = $(this);
 		selected.parent('li').addClass('cd-selected').siblings('li').removeClass('cd-selected');
 		updateSelectedNav('close');
@@ -18,11 +18,8 @@ jQuery(document).ready(function($){
 	function toggle3dBlock(addOrRemove) {
 		if(typeof(addOrRemove)==='undefined') addOrRemove = true;	
 		$('.cd-header').toggleClass('nav-is-visible', addOrRemove);
+		$('main').toggleClass('nav-is-visible', addOrRemove);
 		$('.cd-3d-nav-container').toggleClass('nav-is-visible', addOrRemove);
-		$('main').toggleClass('nav-is-visible', addOrRemove).one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-			//fix marker position when opening the menu (after a window resize)
-			addOrRemove && updateSelectedNav();
-		});
 	}
 
 	//this function update the .cd-marker position
@@ -30,14 +27,13 @@ jQuery(document).ready(function($){
 		var selectedItem = $('.cd-selected'),
 			selectedItemPosition = selectedItem.index() + 1, 
 			leftPosition = selectedItem.offset().left,
-			backgroundColor = selectedItem.data('color'),
-			marker = $('.cd-marker');
+			backgroundColor = selectedItem.data('color');
 
-		marker.removeClassPrefix('color').addClass('color-'+ selectedItemPosition).css({
+		$('.cd-marker').removeClassPrefix('color').addClass('color-'+ selectedItemPosition).css({
 			'left': leftPosition,
 		});
 		if( type == 'close') {
-			marker.one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+			$('.cd-marker').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
 				toggle3dBlock(false);
 			});
 		}
