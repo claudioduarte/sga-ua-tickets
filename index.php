@@ -34,7 +34,7 @@
         <a href="#" class="cd-3d-nav-trigger">Menu<span></span></a>
       </header>
       <?php
-      if ($in_person) {
+      if ($inPerson) {
         include "partials/in-person-appointment.php";
       } else {
         $dayOfWeek == 0 || $dayOfWeek == 6 ? include "partials/ticket-desks-closed.php" : include "api/generate-tickets.php";

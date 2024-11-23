@@ -12,4 +12,8 @@ $openingTime = DateTime::createFromFormat('H:i', "09:29");
 // CLOSING TIME
 $closingTime = DateTime::createFromFormat('H:i', "17:01");
 // IN PERSON - CHANGE TO FALSE TO SEE MOCK DATA
-$in_person = true;
+$inPerson = true;
+// OPEN
+$open = false;
+// CLOSED
+$closed = false;
