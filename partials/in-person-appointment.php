@@ -16,7 +16,7 @@
     <div class="available-hours">
       <h1 class="h1-heading"><strong>9H30 - 17H00</strong></h1>
     </div>
-    <p>O atendimento presencial encontra-se encerrado entre <strong><u>13h00 e as 14h30.</u></strong></p>
+    <p>O atendimento presencial encontra-se encerrado entre as <strong><u>13h00 e as 14h30.</u></strong></p>
   </div>
 </div>
 <div class="informative-tables">
